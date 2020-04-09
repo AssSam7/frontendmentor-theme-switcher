@@ -11,12 +11,12 @@ This is a junior challenge at [***frontendmentor***](https://www.frontendmentor.
 3. Toggle color theme from **Dark** to **Light**
 
 ## Table of contents
-- [About this Challenge](#About%20the%20Project)
-- [Technical Specification](#Technical Specification)
-- [Grid Specification](#Grid Geometry)
-- [Names Spaces (BEM)](#Class Definitions)
-- [Implementation](#Implementation)
-- [Deploy (Live)](#Deploy)
+- [About the Project](#about-project)
+- [Technical Specification](#tech-spec)
+- [Grid Geometry](#grid-geomtry)
+- [Names Spaces Classes(BEM)](#class-def)
+- [Implementation](#implementation)
+- [Deployment (Live)](#deploy)
 
 ## About the Project
 The main objective of this challenge is to build out this Social Media Dashboard and get it looking as close to the design as possible. The design of this challenge is very intriguing as it has a variant color pallette and theming
