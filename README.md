@@ -1,7 +1,7 @@
-# FrontEndMentor | Social Media Dashboard with Theme Switcher
+# FrontEndMentor | Social Media Dashboard
 
 <p align="center">
-  <img src="img/html-css-js-readme-logo.png" width="200"/>
+  <img src="img/html-css-js-readme-logo.png" width="300"/>
 </p>
 
 ## Welcome 👋
