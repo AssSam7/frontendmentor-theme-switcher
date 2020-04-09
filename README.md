@@ -11,9 +11,9 @@ This is a junior level challange at [***frontendmentor***](https://www.frontendm
 3. Toggle color theme from **Dark** to **Light**
 
 ## Table of contents
-- About this Challenge
-- Technical Specification
-- Grid Specification
-- Names Spaces (BEM)
-- Implementation
-- Deploy (Live)
+- [About this Challenge](#About)
+- [Technical Specification](#TechSpec)
+- [Grid Specification](#GridSpec)
+- [Names Spaces (BEM)](#NameSpaces)
+- [Implementation](#Implementation)
+- [Deploy (Live)](#Deploy)
