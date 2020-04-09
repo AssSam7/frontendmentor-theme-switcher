@@ -11,10 +11,10 @@ This is a junior challenge at [***frontendmentor***](https://www.frontendmentor.
 3. Toggle color theme from **Dark** to **Light**
 
 ## Table of contents
-- [About this Challenge](#About)
-- [Technical Specification](#TechSpec)
-- [Grid Specification](#GridSpec)
-- [Names Spaces (BEM)](#NameSpaces)
+- [About this Challenge](#About the Project)
+- [Technical Specification](#Technical Specification)
+- [Grid Specification](#Grid Geometry)
+- [Names Spaces (BEM)](#Class Definitions)
 - [Implementation](#Implementation)
 - [Deploy (Live)](#Deploy)
 
@@ -32,17 +32,3 @@ The main objective of this challenge is to build out this Social Media Dashboard
 
 
 
-## TechSpec
-
-
-
-
-
-
-
-
-
-
-
-
-## GridSpec
