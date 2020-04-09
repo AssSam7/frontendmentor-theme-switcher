@@ -11,7 +11,7 @@ This is a junior challenge at [***frontendmentor***](https://www.frontendmentor.
 3. Toggle color theme from **Dark** to **Light**
 
 ## Table of contents
-- [About this Challenge](#About\ the\ Project)
+- [About this Challenge](#About%20the%20Project)
 - [Technical Specification](#Technical Specification)
 - [Grid Specification](#Grid Geometry)
 - [Names Spaces (BEM)](#Class Definitions)
