@@ -1,5 +1,5 @@
-![HTML5 CSS3 JS LOGO](img/html-css-js-readme-logo.png)
+<img src="img/html-css-js-readme-logo.png" width="200"/>
 
-## Social Media Dashboard with Theme Switcher
+## FrontEndMentor | Social Media Dashboard with Theme Switcher
 
 This is a beginner-friendly challenge in [**_frontendmentor_**](https://www.frontendmentor.io)
