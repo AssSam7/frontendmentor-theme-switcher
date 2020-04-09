@@ -20,3 +20,29 @@ This is a junior challenge at [***frontendmentor***](https://www.frontendmentor.
 
 ## About
 The main objective of this challenge is to build out this Social Media Dashboard and get it looking as close to the design as possible. The design of this challenge is very intriguing as it has a variant color pallette and theming
+
+
+
+
+
+
+
+
+
+
+
+
+## TechSpec
+
+
+
+
+
+
+
+
+
+
+
+
+## GridSpec
