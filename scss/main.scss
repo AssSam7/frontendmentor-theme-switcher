@@ -1,0 +1,188 @@
+@import "base";
+
+/* Main Container holding the whole layout */
+.container {
+  max-width: $desktop-width;
+  margin: 0 auto;
+  overflow: hidden;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/***** HEADER *****/
+.header {
+  height: 100%;
+  width: 100%;
+  padding: 1rem 2rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__head {
+    padding: 1rem 2rem;
+
+    h1 {
+      color: inherit;
+      letter-spacing: 0.2rem;
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+
+    h3 {
+      color: $color-dark-desaturated-blue;
+      letter-spacing: 0.1rem;
+      font-size: 1.4rem;
+      font-weight: 700;
+    }
+  }
+
+  &__toggle {
+    padding: 1rem 2rem;
+
+    h3 {
+      color: $color-dark-desaturated-blue;
+      letter-spacing: 0.1rem;
+      font-size: 1.4rem;
+      font-weight: 700;
+    }
+  }
+}
+
+/* Social Cards */
+.social-cards {
+  margin-top: 2.5rem;
+  padding: 1rem 4rem;
+  width: 100%;
+  margin-bottom: 2rem;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 3.5rem;
+
+  &__fb {
+    border-top: 3.5px solid $color-facebook;
+  }
+
+  &__twitter {
+    border-top: 3.5px solid $color-twitter;
+  }
+
+  &__instagram {
+    border-top: 3.5px solid;
+    border-image: $color-instagram;
+    overflow: hidden;
+  }
+
+  &__youtube {
+    border-top: 3.5px solid $color-youtube;
+  }
+}
+
+.card {
+  background-color: $bg-card-dark-desaturated-blue;
+  padding: 2rem;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__top {
+    width: 100%;
+    margin: 1rem;
+    padding: 1rem 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__main {
+    width: 100%;
+    margin-bottom: 1.5rem;
+    padding: 1rem 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1.count {
+      color: $color-white;
+      font-size: 5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    h3 {
+      color: $color-dark-desaturated-blue;
+      font-size: 1.1rem;
+      font-weight: 100;
+      letter-spacing: 0.5rem;
+    }
+  }
+}
+
+.handles {
+  &__logo {
+    margin-right: 0.8rem;
+  }
+
+  h4 {
+    color: $color-dark-desaturated-blue;
+    font-size: 1.2rem;
+  }
+}
+
+.details {
+}
+
+// Inheritant Styles for progression
+%progression-shared {
+  font-size: 1.2rem;
+  display: block;
+  padding: 1rem 2rem;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progression {
+  &__pos {
+    @extend %progression-shared;
+    color: $color-lime-green;
+
+    i {
+      margin-right: 1rem;
+      font-size: 1rem;
+      font-weight: 700;
+    }
+
+    span {
+      font-size: 1.3rem;
+    }
+  }
+
+  &__neg {
+    @extend %progression-shared;
+    color: $color-bright-red;
+
+    i {
+      margin-right: 1rem;
+      font-size: 1rem;
+      font-weight: 700;
+    }
+
+    span {
+      font-size: 1.3rem;
+    }
+  }
+}
