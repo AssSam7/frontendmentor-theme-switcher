@@ -12,6 +12,7 @@ $color-instagram: linear-gradient(
   )
   1;
 $color-youtube: hsl(348, 97%, 39%);
+$color-toggle-dark: linear gradient hsl(210, 78%, 56%) to hsl(146, 68%, 55%);
 
 // Media Viewport Widths
 $desktop-width: 1340px;
@@ -53,4 +54,51 @@ body {
 
 a {
   text-decoration: none;
+}
+
+/* Classes for Toggling*/
+.bodyToggle {
+  background-color: $bg-light-white;
+}
+
+.cardToggle {
+  background-color: $bg-card-light-grayish-blue !important;
+}
+
+.headerTitleToggle {
+  color: lighten($color: #222, $amount: 10) !important;
+}
+
+.headerTextToggle {
+  color: lighten(
+    $color: $color-light-dark-grayish-blue,
+    $amount: 10
+  ) !important;
+}
+
+.handleNameToggle {
+  color: lighten($color: $color-light-dark-blue, $amount: 30) !important;
+}
+
+.detailCountToggle {
+  color: lighten($color: #222, $amount: 10) !important;
+}
+
+.detailFollowersToggle {
+  color: $color-light-dark-grayish-blue !important;
+}
+
+.overviewTitleToggle {
+  color: lighten(
+    $color: $color-light-dark-grayish-blue,
+    $amount: 10
+  ) !important;
+}
+
+.overviewCardTitle {
+  color: lighten($color: $color-light-dark-blue, $amount: 30) !important;
+}
+
+.overviewCountToggle {
+  color: lighten($color: #222, $amount: 10) !important;
 }
